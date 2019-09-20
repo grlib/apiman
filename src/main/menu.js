@@ -57,8 +57,8 @@ const template = [
 
 const menuManager = {
   create() {
-    // const menu = Menu.buildFromTemplate(template);
-    // Menu.setApplicationMenu(menu);
+    const menu = Menu.buildFromTemplate(template);
+    Menu.setApplicationMenu(menu);
   },
 };
 
